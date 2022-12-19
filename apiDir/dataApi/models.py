@@ -265,9 +265,3 @@ class Sms(models.Model):
     seen       = models.CharField(blank=True, default='',max_length=100)
     journalSms = models.ForeignKey(JournalSms, related_name='sms', on_delete=models.CASCADE)
     
-
-
-# KEY WEATHER : 5DPM2dJJusSsA8vJTuHgyFeXVJ8aoyYR07kPNFIN
-# ACCES ID : DHa9uQxdfzENscQ36MQyJ
-
-#38a4def4b16302c0db8ed1bcc28145d1
