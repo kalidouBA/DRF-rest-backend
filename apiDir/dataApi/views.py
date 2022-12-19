@@ -18,10 +18,6 @@ from rest_framework.decorators import api_view
 from rest_framework.permissions import IsAuthenticated
 
 
-
-# 32e6071a76d96c6e0812c227fca64d9c94a789c5 for user kalze123
-#"token": "56af47e4630cfd967e410a0b55e9a9ba61625f69" for kalze
-
 # ----------------------------------- api Personne Liste ---------------------------------------
 class personneList(APIView):
     #permission_classes = (IsAuthenticated,)
